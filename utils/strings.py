@@ -1,0 +1,32 @@
+STRINGS = {
+    "ar": {
+        "start_msg": "• أهلاً بك يا {name} في سورس ميوزك سينو\n\n- تخصصي تشغيل الميوزك في المكالمات\n- سريع وقوي مع مميزات رائعة\n- منصات التشغيل المدعومة :\nيوتيوب - سبوتيفاي - ريسو - ابل ميوزك - ساوندكلود\n\nلـ تصفح الاوامر اضغط على زر قائمة الاوامر أدناه.",
+        "help_btn": "المساعدة ❓",
+        "add_me": "أضفني لمجموعتك ➕",
+        "developer": "المطور 👨‍💻",
+        "channel": "القناة 📢",
+        "lang_btn": "تغيير اللغة 🌐",
+        "play_cmd": "شغل",
+        "stop_cmd": "ايقاف",
+        "pause_cmd": "ايقاف مؤقت",
+        "resume_cmd": "استئناف",
+        "skip_cmd": "تخطي",
+        "download_cmd": "تحميل",
+        "choose_lang": "الرجاء اختيار اللغة المفضلة:",
+    },
+    "en": {
+        "start_msg": "• Hi {name}! Welcome to Seno Music Source\n\n- I specialize in playing music in voice chats\n- Fast and powerful with great features\n- Supported platforms:\nYouTube - Spotify - Resso - Apple Music - SoundCloud\n\nTo browse commands, click the commands list button below.",
+        "help_btn": "Help ❓",
+        "add_me": "Add Me to Your Group ➕",
+        "developer": "Developer 👨‍💻",
+        "channel": "Channel 📢",
+        "lang_btn": "Change Language 🌐",
+        "play_cmd": "play",
+        "stop_cmd": "stop",
+        "pause_cmd": "pause",
+        "resume_cmd": "resume",
+        "skip_cmd": "skip",
+        "download_cmd": "download",
+        "choose_lang": "Please choose your preferred language:",
+    }
+}
