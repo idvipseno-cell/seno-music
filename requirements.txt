@@ -1,0 +1,11 @@
+pyrogram
+tgcalls
+py-tgcalls
+yt-dlp
+requests
+python-dotenv
+motor
+aiohttp
+aiofiles
+Pillow
+ffmpeg-python
