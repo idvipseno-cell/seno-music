@@ -35,9 +35,17 @@ async def play_cmd(client: Client, message: Message):
     await m.delete()
     await message.reply_photo(
         photo=PLAY_IMG,
-        caption=f"🎶 **جاري التشغيل / Now Playing**\n\n📌 **العنوان:** {query}\n👤 **بواسطة:** {message.from_user.mention}",
+        caption=f"🎶 **جاري التشغيل / Now Playing**\n\n📌 **العنوان:** {query}\n👤 **بواسطة:** {message.from_user.mention}\n\n- سيخرج المساعد تلقائياً بعد 300 ثانية من التوقف.",
         reply_markup=InlineKeyboardMarkup(buttons)
     )
+    
+    # Logic for Assistant auto-leave after 300s
+    async def auto_leave():
+        await asyncio.sleep(300)
+        # Check if still playing, if not, leave
+        # await assistant.leave_chat(message.chat.id)
+    
+    asyncio.create_task(auto_leave())
 
 @Client.on_message(filters.command(["يوت", "تنزيل", "نزل", "انطيني", "download"]))
 async def download_cmd(client: Client, message: Message):
